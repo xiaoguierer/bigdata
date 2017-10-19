@@ -1,0 +1,58 @@
+@startuml
+|CacheHandler|
+start
+:proceed;
+|#AntiqueWhite|AbstractScriptParser|
+:判断是否允许缓存;
+|CacheHandler|
+if (不允许缓存) then (yes)
+|DAO|
+:getData;
+stop
+endif
+|#AntiqueWhite|ICacheManager|
+:get;
+|CacheHandler|
+if(null != cacheWrapper && !cacheWrapper.isExpired()) then (yes)
+|AutoLoadHandler|
+:putIfAbsent;
+|CacheHandler|
+if(null != autoLoadTO) then (yes)
+:autoLoadTO同步最后加载时间;
+else
+|#AntiqueWhite|RefreshHandler|
+:doRefresh;
+endif
+:return CacheObject;
+stop
+endif
+|DataLoader|
+if(null == isProcessing) then (yes)
+|DAO|
+:getData;
+|DataLoader|
+:buildCacheWrapper;
+:processingTO.setCache(cacheWrapper);
+else
+repeat
+:isProcessing.getCache();
+repeat while (isProcessing.isFirstFinished()?)
+ 
+endif
+|CacheHandler|
+:getCacheWrapper();
+if(dataLoader.isFirst()) then (yes)
+|ICacheManager|
+:set;
+|CacheHandler|
+:do AutoLoadHandler.putIfAbsent;
+|AutoLoadHandler|
+:putIfAbsent;
+|CacheHandler|
+if(null != autoLoadTO) then (yes)
+:autoLoadTO同步最后加载时间;
+endif
+endif
+:return Object;
+stop
+@enduml
