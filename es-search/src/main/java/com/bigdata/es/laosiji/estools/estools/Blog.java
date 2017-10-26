@@ -1,4 +1,4 @@
-package com.bigdata.es.laosiji.estools.EsDoc;
+package com.bigdata.es.laosiji.estools.estools;
 
 public class Blog {
     private Integer id;

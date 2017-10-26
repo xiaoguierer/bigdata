@@ -5,7 +5,7 @@ import java.util.Map;
 public class javabeantools {
 
     /**
-     * java --》map
+     * java --> map
      * @param obj
      * @return
      */

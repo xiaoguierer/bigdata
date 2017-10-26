@@ -112,12 +112,14 @@ public class EsIndex {
         try {
             mappingBuilder = XContentFactory.jsonBuilder()
                     .startObject()
+                     .startObject("pii-test")
                     .startObject("properties")
                     .startObject("name").field("type", "string").field("store", "yes").endObject()
                     .startObject("sex").field("type", "string").field("store", "yes").endObject()
                     .startObject("college").field("type", "string").field("store", "yes").endObject()
                     .startObject("age").field("type", "integer").field("store", "yes").endObject()
                     .startObject("school").field("type", "string").field("store", "yes").field("index", "not_analyzed").endObject()
+                    .endObject()
                     .endObject()
                     .endObject();
         } catch (Exception e) {

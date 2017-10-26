@@ -1,4 +1,4 @@
-package com.bigdata.es.laosiji.estools.EsDoc;
+package com.bigdata.es.laosiji.estools.estools;
 
 import com.bigdata.es.laosiji.estools.esclient.EsInit;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;

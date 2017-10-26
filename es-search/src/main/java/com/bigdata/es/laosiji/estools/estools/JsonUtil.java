@@ -1,4 +1,4 @@
-package com.bigdata.es.laosiji.estools.EsDoc;
+package com.bigdata.es.laosiji.estools.estools;
 
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;

@@ -1,33 +1,7 @@
 package com.cn.laosiji.elk.log4j;
 
-import com.bigdata.es.laosiji.estools.EsDoc.DataFactory;
-import com.bigdata.es.laosiji.estools.clusteradministration.ClusterAdministration;
 import com.bigdata.es.laosiji.estools.esclient.EsInit;
-import com.bigdata.es.laosiji.estools.esindex.EsIndex;
-import com.carrotsearch.hppc.cursors.ObjectObjectCursor;
-import org.elasticsearch.action.admin.cluster.health.ClusterHealthResponse;
-import org.elasticsearch.action.admin.indices.create.CreateIndexResponse;
-import org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsResponse;
-import org.elasticsearch.action.get.GetResponse;
-import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.action.index.IndexResponse;
-import org.elasticsearch.action.update.UpdateRequest;
-import org.elasticsearch.client.AdminClient;
-import org.elasticsearch.client.ClusterAdminClient;
-import org.elasticsearch.client.IndicesAdminClient;
 import org.elasticsearch.client.transport.TransportClient;
-import org.elasticsearch.cluster.health.ClusterHealthStatus;
-import org.elasticsearch.cluster.health.ClusterIndexHealth;
-import org.elasticsearch.common.collect.ImmutableOpenMap;
-import org.elasticsearch.common.settings.Settings;
-import org.elasticsearch.common.transport.InetSocketTransportAddress;
-import org.elasticsearch.common.unit.TimeValue;
-import org.elasticsearch.common.xcontent.XContentBuilder;
-import org.elasticsearch.common.xcontent.XContentFactory;
-import org.elasticsearch.transport.client.PreBuiltTransportClient;
-
-import java.net.InetAddress;
-import java.util.List;
 
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
