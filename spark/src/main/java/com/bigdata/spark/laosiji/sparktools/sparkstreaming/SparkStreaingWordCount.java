@@ -90,7 +90,7 @@ public class SparkStreaingWordCount {
      * 放在Redis、DB、DashBoard等上面，foreachRDD主要
      * 就是用来 完成这些功能的，而且可以随意的自定义具体数据放在哪里。
      */
-   /* wordsCount.print();
+  /*  wordsCount.print();
     jsc.start();
     jsc.awaitTermination();
     jsc.close();*/

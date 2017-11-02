@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aop_annotation_cacahe" />
+        <module name="es-search" />
+        <module name="jurisdiction" />
+        <module name="kafka" />
+        <module name="oauth_client" />
+        <module name="oauth_server" />
+        <module name="spring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop_annotation_cacahe" target="1.6" />
+      <module name="bigdate" target="1.5" />
+      <module name="cache" target="1.5" />
+      <module name="es-search" target="1.5" />
+      <module name="habse" target="1.5" />
+      <module name="hadoop" target="1.5" />
+      <module name="jurisdiction" target="1.7" />
+      <module name="kafka" target="1.5" />
+      <module name="message" target="1.7" />
+      <module name="oauth_client" target="1.5" />
+      <module name="oauth_server" target="1.5" />
+      <module name="sos" target="1.5" />
+      <module name="spark" target="1.5" />
+      <module name="spring" target="1.5" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

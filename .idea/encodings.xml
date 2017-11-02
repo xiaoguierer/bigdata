@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop_annotation_cacahe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/habse" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jurisdiction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sos/oauth_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sos/oauth_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+  </component>
+</project>

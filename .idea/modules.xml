@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aop_annotation_cacahe/aop_annotation_cacahe.iml" filepath="$PROJECT_DIR$/aop_annotation_cacahe/aop_annotation_cacahe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdate.iml" filepath="$PROJECT_DIR$/bigdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es-search/es-search.iml" filepath="$PROJECT_DIR$/es-search/es-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/habse/habse.iml" filepath="$PROJECT_DIR$/habse/habse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop/hadoop.iml" filepath="$PROJECT_DIR$/hadoop/hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jurisdiction/jurisdiction.iml" filepath="$PROJECT_DIR$/jurisdiction/jurisdiction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sos/oauth_client/oauth_client.iml" filepath="$PROJECT_DIR$/sos/oauth_client/oauth_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sos/oauth_server/oauth_server.iml" filepath="$PROJECT_DIR$/sos/oauth_server/oauth_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sos/sos.iml" filepath="$PROJECT_DIR$/sos/sos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: uk.com.robust-it:cloning:1.9.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
